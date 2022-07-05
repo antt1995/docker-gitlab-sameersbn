@@ -51,6 +51,7 @@
     - [Host UID / GID Mapping](#host-uid--gid-mapping)
     - [Piwik](#piwik)
     - [Exposing ssh port in dockerized gitlab-ce](docs/exposing-ssh-port.md)
+    - [Gitlab KAS](#Gitlab KAS)
     - [Available Configuration Parameters](#available-configuration-parameters)
 - [Maintenance](#maintenance)
     - [Creating Backups](#creating-backups)
@@ -775,6 +776,16 @@ These options should contain something like:
 
 - `PIWIK_URL=piwik.example.org`
 - `PIWIK_SITE_ID=42`
+
+#### Gitlab KAS
+
+Basic Gitlab KAS Settings 
+
+- `GITLAB_KAS_ENABLED=${GITLAB_KAS_ENABLED:-false}`
+- `GITLAB_KAS_SECRET=${GITLAB_INSTALL_DIR}/.gitlab_kas_secret}`
+- `GITLAB_KAS_EXTERNAL="wss://kas.example.com"}`
+- `GITLAB_KAS_INTERNAL="grpc://localhost:8153"}`
+- `GITLAB_KAS_PROXY=`
 
 #### Available Configuration Parameters
 
