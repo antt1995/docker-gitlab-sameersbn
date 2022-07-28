@@ -51,7 +51,7 @@
     - [Host UID / GID Mapping](#host-uid--gid-mapping)
     - [Piwik](#piwik)
     - [Exposing ssh port in dockerized gitlab-ce](docs/exposing-ssh-port.md)
-    - [Gitlab KAS](#Gitlab KAS)
+    - [Gitlab KAS](#Gitlab-KAS)
     - [Available Configuration Parameters](#available-configuration-parameters)
 - [Maintenance](#maintenance)
     - [Creating Backups](#creating-backups)
